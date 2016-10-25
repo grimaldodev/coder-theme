@@ -1,0 +1,15 @@
+{
+	"name": "grimaldo.coder",
+	"title": "Coder theme",
+	"desciption": "Create this theme because I can not find a nice one",
+	"homepage": "https://github.com/ivangrimaldo/coder-theme",
+	"version": "1.0.0",
+	"author": "Ivan Grimaldo",
+	"licence": "MIT",
+	"theme": {
+		"file": "theme.less",
+		"dark": true,
+		"addModeClass": true
+	},
+	"keywords": ["theme"]
+}

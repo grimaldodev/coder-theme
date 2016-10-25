@@ -1,0 +1,112 @@
+/*
+Author: Ivan Grimaldo
+URL: 
+This theme is based on Atom One Dark theme
+Is free to use, modify or distribute with a
+mention of the author. 
+*/
+
+@dark : #17191A;
+@darker: #1E2021;
+@comment: #2F3234;
+@grey: #A5ACB0;
+@select: #323638;
+@green: #95BE6A;
+@aqua: #4DACBC;
+@blue: #60AAE3;
+@orange: #D19A61;
+@red: #DF6A73;
+@violet: #C678D7;
+
+.CodeMirror, .CodeMirror-scroll{
+	background-color: @dark;
+	color: @grey;
+}
+.CodeMirror-cursor {
+    border-left: 1px solid #11F56C !important;
+}
+.CodeMirror-gutters {
+    background-color: @dark;
+    border-right: 1px dashed @darker;
+}
+.CodeMirror-linenumber {
+    color: @comment;
+}
+.CodeMirror .CodeMirror-selected {
+    background: @select;
+}
+.CodeMirror-matchingbracket{
+	color: @blue !important;
+	background-color: @dark;
+}
+.CodeMirror-matchingtag {
+  background: @select;
+}
+
+/*The tags area*/
+.cm-comment{
+	color: @comment !important;
+}
+
+//Javascript definition
+.cm-m-javascript{
+	&.cm-keyword{
+		color: @green;
+	}
+	&.cm-string{
+		color: @green;
+	}
+	&.cm-atom,
+	&.cm-string-2{
+		color: @orange;
+	}
+	&.cm-def, 
+	&.cm-variable{
+		color: @grey;
+	}
+	&.cm-variable-2{
+		color: @red;
+	}
+	&.cm-number, &.cm-regex{
+		color: @orange;
+	}
+	&.cm-property{
+		color: @blue;
+	}
+	&.cm-operator{
+		color: @aqua;
+	}
+}
+//CSS and Less deffinitions
+.cm-m-css{
+	color: @grey;
+	&.cm-atom{
+		color: @aqua;
+	}
+	&.cm-string{
+		color: @green;
+	}
+	&.cm-tag,
+	&.cm-qualifier{
+		color: @orange;
+	}
+	&.cm-property{
+		color:@grey;
+	}
+	&.cm-number{
+		color:@aqua;
+	}
+}
+//More sugar for HTML flavor
+.cm-m-html, .cm-m-xml{
+	&.cm-tag{
+		color: @red;
+	}
+	&.cm-attribute{
+		color: @orange;
+	}
+	&.cm-string{
+		color: @green;
+	}
+}
+
