@@ -1,7 +1,7 @@
 {
 	"name": "grimaldo.coder",
 	"title": "Coder theme",
-	"desciption": "Create this theme because I can not find a nice one",
+	"description": "Dark theme based in Aotm One Dark",
 	"homepage": "https://github.com/ivangrimaldo/coder-theme",
 	"version": "1.0.0",
 	"author": "Ivan Grimaldo",
