@@ -14,5 +14,5 @@ Some screenshots
 
 ### Javascript Example
 
-![Javascript Example](https://raw.githubusercontent.com/ivangrimaldo/coder-theme/master/javascript-example.png)
+![Javascript Example](https://raw.githubusercontent.com/ivangrimaldo/coder-theme/master/js-example.png)
 
